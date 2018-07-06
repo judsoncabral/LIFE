@@ -13,7 +13,7 @@ O programa vai criar uma matriz(por dimensões escolhidas pelo jogador) e posici
 o jogador pode parar quando quiser ou quando uma das regras de parada for alcançada de acordo com as regras do jogo da vida.
 
 ## Compilação:
-Para compilar, abra o terminal na pasta LIFE e screva o seguinte comando no terminal:
+Para compilar, abra o terminal na pasta LIFE e escreva o seguinte comando no terminal:
 
 g++ -Wall -std=c++17 -pedantic src/main.cpp src/life.cpp -o life_game
 
@@ -71,7 +71,7 @@ Depois ira pedir pra posicionar essas celulas vivas
 Depois ira ficar aplicando as regras enquanto o jogo não tiver estabilizado ou todas as celulas se tornado extintas ou o jogador tenha desejado parar
 
 ## Execução:
-Para executar, abra o terminal na pasta LIFE e screva o seguinte comando no terminal:
+Para executar, abra o terminal na pasta LIFE e escreva o seguinte comando no terminal:
 ./life_game
 ou
 ./life_game arquivo.txt
